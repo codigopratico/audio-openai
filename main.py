@@ -5,4 +5,3 @@ load_dotenv()
 
 cliente = OpenAI()
 
-resposta = cliente.chat.completions.create(
