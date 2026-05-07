@@ -17,3 +17,7 @@ Aqui registro as etapas conforme são concluídas, garantindo transparência no 
 - Configuração do .gitignore para não expor credenciais sensíveis.
 - Criação de um ambiente virtual para evitar conflitos de versão.
 - Instalação das dependências principais: openai e python-dotenv.
+
+## 2. Conexão com a API
+- Criação do cliente OpenAI no Python.
+- Teste de carregamento das variáveis de ambiente com load_dotenv().
