@@ -30,3 +30,13 @@ Aqui registro as etapas conforme são concluídas, garantindo transparência no 
 - Geração via Chat Completion (Multimodal):
   - Uso do modelo gpt-4o-audio-preview.
   - Decodificação de base64 para salvamento do arquivo .wav.
+
+# 4. 4. Implementação de Text-to-Speech Estruturado
+- Geração Direta (Text-to-Speech):
+  - Uso do modelo tts-1 para conversão de texto fixo.
+  - Salvamento direto usando write_to_file.
+---
+## 📚 Referências & Créditos
+Este projeto foi desenvolvido como parte dos meus estudos práticos, seguindo as orientações de:
+- **Tutorial Base**: [Automação de Geração de Áudio com Python](https://youtu.be/LAsayFqjvYM) - Canal **Hashtag Programação**.
+- **Documentação Oficial**: [OpenAI API Reference](hhttps://developers.openai.com/api/docs).
