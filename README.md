@@ -21,3 +21,12 @@ Aqui registro as etapas conforme são concluídas, garantindo transparência no 
 ## 2. Conexão com a API
 - Criação do cliente OpenAI no Python.
 - Teste de carregamento das variáveis de ambiente com load_dotenv().
+
+## 3. Implementação e Customização
+- Configuração de Parâmetros:
+  - Seleção de vozes (ex: alloy, echo, nova).
+  - Definição de formatos de saída (.mp3 ou .wav).
+  - Ajuste de cadência com o parâmetro speed.
+- Geração via Chat Completion (Multimodal):
+  - Uso do modelo gpt-4o-audio-preview.
+  - Decodificação de base64 para salvamento do arquivo .wav.
